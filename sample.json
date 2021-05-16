@@ -1,0 +1,24 @@
+{
+ "process": "write",
+  "tableName": "events_backup",
+  "rowCount": "100",
+  "awsAccessKey": "optional",
+  "awsSecretKey": "optional",
+  "region": "us-west-2",
+  "awsProfile": "default-optional",
+  "columns": [
+    {
+      "name": "eventUUID",
+      "type": "S"
+    },{
+      "name": "event",
+      "type": "S"
+    },{
+      "name": "expirationTime",
+      "type": "N"
+    },{
+      "name": "producerClientId",
+      "type": "S"
+    }
+  ]
+}
